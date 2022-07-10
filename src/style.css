@@ -1,4 +1,4 @@
-.weather_app {
+#weather_app {
 	margin: 16px auto;
 	padding: 48px 24px;
 	border: solid 2px #beebe9;
@@ -186,4 +186,13 @@
 }
 .fa-cloud-showers-heavy {
 	color: #424fc9;
+}
+
+.developer {
+	text-align: center;
+}
+
+.developer a {
+	color: #8ac6d1;
+	text-decoration: none;
 }
