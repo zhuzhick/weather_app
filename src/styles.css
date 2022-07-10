@@ -1,0 +1,189 @@
+.weather_app {
+	margin: 16px auto;
+	padding: 48px 24px;
+	border: solid 2px #beebe9;
+	display: block;
+	width: 640px;
+	background-color: #fffdf9;
+	font-family: "Montserrat", sans-serif;
+}
+
+.toggle_degree_button {
+	float: right;
+}
+
+.toggle_btn {
+	cursor: pointer;
+	padding: 4px 8px;
+	margin: 0 0 16px 0;
+	border-radius: 16px;
+	border: solid 2px #8ac6d1;
+	float: left;
+	color: #8ac6d1;
+	background-color: #fffdf9;
+	font-weight: 800;
+	transition: ease-in 0.8;
+}
+
+.toggle_btn:hover {
+	background-color: #8ac6d1;
+	color: #fffdf9;
+}
+
+.weather_app h1 {
+	text-align: center;
+	font-weight: bold;
+	color: #8ac6d1;
+}
+
+.search_form {
+	display: block;
+	margin: 0 auto;
+}
+
+.search_form input {
+	border-radius: 32px;
+	text-align: center;
+}
+
+#forecast_city_submiit {
+	opacity: 0.8;
+	border: solid 1px #8ac6d1;
+	background-color: #fffdf9;
+	transition: ease-in 0.8;
+}
+
+#forecast_city_submiit:hover {
+	background-color: #8ac6d1;
+}
+
+.sorry {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bolder;
+	padding: 8px 0 0 0;
+	height: 48px;
+}
+
+.current_city {
+	position: relative;
+	border: solid 2px #beebe9;
+	border-radius: 16px 16px 0 0;
+	display: block;
+	margin: 8px 6px 32px 0;
+	height: 300px;
+}
+
+.current_city h2 {
+	position: relative;
+	text-align: center;
+	top: 130px;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.current_city span i {
+	color: #fffc33;
+	font-size: 10rem;
+	position: absolute;
+	top: 80px;
+	left: 60px;
+}
+
+.current_weather {
+	border: solid 2px #beebe9;
+	border-radius: 16px 16px 0 0;
+	display: block;
+	margin: 8px 6px 32px 0;
+	padding: 8px;
+	height: 300px;
+}
+
+.current_weather h2 {
+	text-align: center;
+	margin-top: 16px;
+	font-weight: bold;
+	color: #8ac6d1;
+}
+
+.current_weather h3 {
+	text-align: center;
+	color: #8ac6d1;
+}
+
+.current_weather h5 {
+	text-align: center;
+	color: #8ac6d1;
+}
+
+.current_weather table {
+	line-height: 1.5;
+}
+
+.current_weather table tr th {
+	text-align: left;
+	padding: 4px 4px;
+}
+
+.current_weather table tr td {
+	text-align: left;
+	font-weight: bold;
+	padding: 0 0 0 8px;
+}
+
+.current_weather table tr td:nth-child(odd) {
+	text-align: right;
+	font-weight: bold;
+	padding: 0 0 0 8px;
+}
+
+.day_weather_forecast {
+	background-color: #8ac6d1;
+	margin: 0 4px 0 4px;
+	padding: 16px 4px;
+	border-radius: 16px;
+	font-weight: bold;
+}
+
+.day_weather_forecast h4 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.day_weather_forecast h5 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.day_weather_forecast table {
+	line-height: 1.5;
+}
+
+.day_weather_forecast table tr th {
+	text-align: left;
+	padding: 0 4px 0 4px;
+}
+
+.day_weather_forecast table tr td {
+	text-align: right;
+	font-size: 10px;
+}
+
+.day_weather_forecast span {
+	font-size: 1.5rem;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fa-sun {
+	color: #fffc33;
+}
+.fa-cloud-sun {
+	color: #000099;
+}
+.fa-cloud-showers-heavy {
+	color: #424fc9;
+}
